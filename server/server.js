@@ -9,4 +9,4 @@ app.get("/", (req, res) => {
 });
 
 const port = process.env.PORT || 5005;
-app.prependOnceListener(port, () => console.log(`Listening on ${port}`));
+app.listen(port, () => console.log(`Listening on ${port}`));
