@@ -17,6 +17,9 @@ h1 {
 }
 p {
   color: rgba(190, 233, 190, 0.593);
+  display: flex;
+  align-content: flex-end;
+  text-align: center;
 }
 a {
   color: rgba(190, 233, 190, 0.593);
