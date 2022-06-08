@@ -10,7 +10,9 @@ header {
   padding: 0px;
   background-color: black;
 }
-
+img {
+  width: 60%;
+}
 body {
   display: flex;
   flex-direction: column;
