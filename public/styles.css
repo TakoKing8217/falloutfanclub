@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 15px;
   box-sizing: content-box;
+  font-family: "Press Start 2P", sans-serif;
 }
 
 body {
@@ -12,11 +13,17 @@ body {
   background-color: rgb(20, 30, 19);
 }
 h1 {
-  color: rgba(23, 137, 23, 0.593);
+  color: rgba(190, 233, 190, 0.593);
 }
 p {
-  color: white;
+  color: rgba(190, 233, 190, 0.593);
 }
 a {
-  color: white;
+  color: rgba(190, 233, 190, 0.593);
+}
+
+button {
+  background-color: olive;
+  border: 0px;
+  border-radius: 15px;
 }
