@@ -45,6 +45,7 @@ a {
 
 button {
   background-color: olive;
+  color: black;
   border: 0px;
   border-radius: 15px;
   box-shadow: 15px 15px rgb(190, 189, 189);
