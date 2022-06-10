@@ -28,5 +28,11 @@ app.get("/hours", (req, res) => {
   res.status(200).send(hours);
 });
 
+app.get("/name", (req, res) => {
+  rollbar.info("Someone got a random name!")
+  let names = ["Mason", "Nate", "DJ", "Lukas"];
+  let name = names[Math.floor(Math.random() * names.length)];
+  res.status(200).send(name);
+});
 const port = process.env.PORT || 5500;
 app.listen(port, () => console.log(`Listening on ${port}`));
